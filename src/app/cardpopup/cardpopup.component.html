@@ -1,0 +1,16 @@
+<mat-dialog-content>
+    <div class="card">
+        <img src="{{imgsrc}}">
+        <div class="titlediv">
+            <p class="title">{{titulo}}</p>
+            <p class="price">${{precio}}</p>
+        </div>
+        <meter class="average-rating" min="0" max="5" value="{{rating}}" id="rating"></meter>
+        <p class="description">{{desc}}</p>
+        <p class="description" id="extra">{{extra}}</p>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Close</button>
+    <button mat-button >Agregar</button>
+</mat-dialog-actions>
